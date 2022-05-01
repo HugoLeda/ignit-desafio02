@@ -15,7 +15,6 @@ interface SideBarProps {
 }
 
 export function SideBar({ selectedGenreId, handleClickButton }: SideBarProps) {
-  // Complete aqui
 
   const [genres, setGenres] = useState<GenreResponseProps[]>([]);
 

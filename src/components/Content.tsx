@@ -25,8 +25,7 @@ interface MovieProps {
   Runtime: string;
 }
 
-export function Content({ selectedGenreId, selectedGenre }: ContentProps) {
-  // Complete aqui
+export function Content({ selectedGenreId, selectedGenre }: ContentProps) {  
 
   const [movies, setMovies] = useState<MovieProps[]>([]);
 
